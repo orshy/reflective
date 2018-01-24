@@ -8,7 +8,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Reflective Ventures</h1>
-                <p>A venture fund focused on the <a href="https://www.blockchain.com/">Blockchain</a> and crypto-technology start-up landscape. Partnering with <a href="https://www.rchain.coop/">RChain Cooperative</a>, our mission is to provide an impactful utility value to <a href="https://www.blockchain.com/">Blockchain</a> and <a href="https://en.wikipedia.org/wiki/List_of_cryptocurrencies">Cryptocurrency</a> start-ups.</p>
+                <p>Tactful Innovation with Impact.</p>
             </div>
         </div>
         <nav>
