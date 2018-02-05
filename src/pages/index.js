@@ -15,19 +15,10 @@ class BlogIndex extends React.Component {
             <
             Helmet >
             <
-            title > {get(this, 'props.data.site.siteMetadata.title') } < /title> <
-            meta name = "description"
+            title > {get(this, 'props.data.site.siteMetadata.title') } < /title> + <meta name = "description"
             content = {get(this, 'props.data.site.siteMetadata.description') }
             /> <
-            /Helmet> <
-            video autoPlay loop id = "bg-video"
-            poster = "../images/tree-mobile.jpg.jpg" >
-            <
-            source src = "https://s3-us-west-2.amazonaws.com/kameronjohnson/treetop.mp4"
-            type = "video/mp4" / > Your browser does not support the video tag.I suggest you upgrade your browser. <
-            /video>
-
-            <
+            /Helmet>  <
             /div>
         )
     }
