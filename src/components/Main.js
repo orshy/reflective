@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Invest</h2>
-          <p>We incubate, invest in, and actively design strategic financing and token capitalization events for innovative <a href="https://www.blockchain.com/">blockchain</a> specific dApps and complementary technologies and tools that have strong growth potential and will provide a meaningful contribution to the RChain blockchain ecosystem in the form of appreciable utility value and increased market adoption.</p>
+          <p>We incubate, invest in, and actively design strategic financing and token capitalization events for innovative <a href="https://www.blockchain.com/">blockchain</a> specific <a href="https://www.stateofthedapps.com">dApps</a> and complementary technologies and tools that have strong growth potential and will provide a meaningful contribution to the RChain blockchain ecosystem in the form of appreciable utility value and increased market adoption.</p>
           {close}
         </article>
 
