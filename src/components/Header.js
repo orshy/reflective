@@ -6,38 +6,44 @@ const Header = (props) => ( <
     <
     div className = "logo" >
     <
-    span className = "icon fa-btc" > < /span> <
-    /div> <
+    span className = "icon fa-btc" > < /span> < /
+    div > <
     div className = "content" >
     <
     div className = "inner" >
     <
-    h1 > Reflective Ventures < /h1> <
-    p > Tactful Innovation with Impact < /p> <
-    /div> <
-    /div> <
+    h1 > REFLECTIVE VENTURE PARTNERS < /h1>  <
+    h2 > A development hub
+    for blockchain innovation < /h2>
+    <p>Reflective Venture Partners is a privately owned and managed venture firm committed to funding and incubating the next generation of core protocols and decentralized solutions</p>
+    </div >
+    </div > <
     nav >
     <
     ul >
     <
     li > < a href = "javascript:;"
     onClick = {
-        () => { props.onOpenArticle('intro') } } > Blog < /a></li >
+        () => { props.onOpenArticle('intro') }
+    } > Invest < /a></li >
     <
     li > < a href = "javascript:;"
     onClick = {
-        () => { props.onOpenArticle('work') } } > Companies < /a></li >
+        () => { props.onOpenArticle('work') }
+    } > Incubate < /a></li >
     <
     li > < a href = "javascript:;"
     onClick = {
-        () => { props.onOpenArticle('about') } } > About < /a></li >
+        () => { props.onOpenArticle('about') }
+    } > Innovate < /a></li >
     <
     li > < a href = "javascript:;"
     onClick = {
-        () => { props.onOpenArticle('contact') } } > Contact < /a></li >
+        () => { props.onOpenArticle('contact') }
+    } > Contact < /a></li >
     <
-    /ul> <
-    /nav> <
+    /ul> < /
+    nav > <
     /header>
 )
 
