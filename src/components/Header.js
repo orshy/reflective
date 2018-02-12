@@ -6,7 +6,7 @@ const Header = (props) => ( <
     <
     div className = "logo" >
     <
-    span className = "icon fa-btc" > < /span> < /
+    span className = "icon fa-connectdevelop" > < /span> < /
     div > <
     div className = "content" >
     <
