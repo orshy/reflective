@@ -15,7 +15,7 @@ const Header = (props) => ( <
     h1 > REFLECTIVE VENTURE PARTNERS < /h1>  <
     h2 > A development hub
     for blockchain innovation < /h2>
-    <p>Reflective Venture Partners is a privately owned and managed venture firm committed to funding and incubating the next generation of core protocols and decentralized solutions</p>
+    <p>Privately owned and managed venture firm committed to funding and incubating the next generation of core protocols and decentralized solutions</p>
     </div >
     </div > <
     nav >
