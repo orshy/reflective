@@ -78,37 +78,30 @@ class Template extends React.Component {
         const siteTitle = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
 
-        return ( <
-            div className = { `body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}` } >
-            <
-            Helmet >
-            <
-            title > { siteTitle } < /title> <
-            meta name = "description"
+        return ( <div className = { `body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}` } >
+            <Helmet>
+            <title > { siteTitle }</title>
+            <meta name = "description"
             content = { siteDescription }
-            /> <
-            /Helmet>
-
-            <
-            div id = "wrapper" >
-
-            <
-            Header onOpenArticle = { this.handleOpenArticle }
-            timeout = { this.state.timeout }
-            /> <
-            Main isArticleVisible = { this.state.isArticleVisible }
-            timeout = { this.state.timeout }
-            articleTimeout = { this.state.articleTimeout }
-            article = { this.state.article }
-            onCloseArticle = { this.handleCloseArticle }
-            /> <
-            Footer timeout = { this.state.timeout }
             />
+            </Helmet>
+
+            <div id = "wrapper" >
+
+              <Header onOpenArticle = { this.handleOpenArticle }
+              timeout = { this.state.timeout }
+              />
+              <Main isArticleVisible = { this.state.isArticleVisible }
+              timeout = { this.state.timeout }
+              articleTimeout = { this.state.articleTimeout }
+              article = { this.state.article }
+              onCloseArticle = { this.handleCloseArticle }
+              />
+              <Footer timeout = { this.state.timeout }
+              />
 
             </div>
-            // <div id = "bg" > < /div>
-            //
-            // </div>
+          </div>
         )
     }
 }

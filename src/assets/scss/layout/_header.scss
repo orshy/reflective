@@ -33,13 +33,12 @@
         }
     }
     .logo {
+        opacity: 0.8;
+        border-radius: 2%;
         width: 15rem;
-        border-radius: 1%;
         // height: 5.5rem;
         line-height: 5.5rem;
         // border: solid 1px _palette(border);
-        // border-radius: 100%;
-        // background-image: url(../../images/rv.jpg);
         .icon {
             &:before {
                 font-size: 2rem;
@@ -55,7 +54,7 @@
         .inner {
             @include vendor('transition', ( 'max-height #{_duration(intro)} ease', 'padding #{_duration(intro)} ease', 'opacity #{_duration(article)} ease-in-out'));
             @include vendor('transition-delay', '0.25s');
-            padding: 3rem 2rem;
+            padding: 2rem 2rem;
             max-height: 40rem;
             overflow: hidden;
             > :last-child {

@@ -14,7 +14,7 @@
 }
 
 body {
-    background: RGBA(0, 78, 127, .5) radial-gradient(farthest-corner at 40px 40px, #f6f5f3 0%, rgb(0,83,133) 100%);
+    background: RGBA(0, 78, 127, .6) radial-gradient(farthest-corner at 20px 20px, #f6f5f3 -40%, rgb(0,83,133) 100%);
     // Prevents animation/transition "flicker" on page load.
     // Automatically added/removed by js/main.js.
     &.is-loading,
