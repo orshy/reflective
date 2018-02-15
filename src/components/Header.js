@@ -16,7 +16,7 @@ const Header = (props) => ( <
         <h2>A privately owned and managed venture firm in partnership with <a href = "https://www.rchain.coop/"> RChain Cooperative</a></h2>
       </div>
     </div>
-    <p> More information coming soon. Contact us at <a href = "mailto:information@reflectiveventures.io" target = "_top"> here </a></p>
+    <p> More information coming soon. Contact us at <a href = "mailto:info@reflectiveventures.io" target = "_top"> here </a></p>
   </header>
 )
 
