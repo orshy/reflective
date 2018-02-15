@@ -105,12 +105,10 @@ class Template extends React.Component {
             Footer timeout = { this.state.timeout }
             />
 
-            <
-            /div> <
-            div id = "bg" > < /div>
-
-            <
-            /div>
+            </div>
+            // <div id = "bg" > < /div>
+            //
+            // </div>
         )
     }
 }

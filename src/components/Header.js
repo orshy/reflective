@@ -1,49 +1,23 @@
 import React from 'react'
+import rvLogo from '../images/rv.jpg'
+;
 
 const Header = (props) => ( <
     header id = "header"
     style = { props.timeout ? { display: 'none' } : {} } >
-  <
-  div className = "logo" >
-  <
-  span className = "icon fa-connectdevelop" > < /span> < /
-  div > <
-  div className = "content" >
-  <
-  div className = "inner" >
-  <
-  h1 > REFLECTIVE VENTURE PARTNERS < /h1>  <
-  h2 > A development hub
-  for blockchain innovation < /h2>
-  <p>Privately owned and managed venture firm committed to funding and incubating the next generation of core protocols and decentralized solutions</p>
-    </div >
-    </div > <
-    nav >
-    <
-    ul >
-    <
-    li > < a href = "javascript:;"
-    onClick = {
-        () => { props.onOpenArticle('intro') }
-    } > Invest < /a></li >
-    <
-    li > < a href = "javascript:;"
-    onClick = {
-        () => { props.onOpenArticle('work') }
-    } > Incubate < /a></li >
-    <
-    li > < a href = "javascript:;"
-    onClick = {
-        () => { props.onOpenArticle('about') }
-    } > Innovate < /a></li >
-    <
-    li > < a href = "javascript:;"
-    onClick = {
-        () => { props.onOpenArticle('contact') }
-    } > Contact < /a></li >
-    </ul>
-  </nav > 
-    </header>
+    <div class="icon">
+    <div>
+      <img src={rvLogo} className="logo"/>
+    </div>
+    </div>
+    <div className="content" >
+      <div className="inner" >
+        <h1>REFLECTIVE VENTURE PARTNERS</h1>
+        <h2>A privately owned and managed venture firm in partnership with <a href = "https://www.rchain.coop/"> RChain Cooperative</a></h2>
+      </div>
+    </div>
+    <p> More information coming soon. Contact us at <a href = "mailto:information@reflectiveventures.io" target = "_top"> here </a></p>
+  </header>
 )
 
 Header.propTypes = {

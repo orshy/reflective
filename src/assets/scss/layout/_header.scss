@@ -21,8 +21,8 @@
             position: absolute;
             top: calc(-3.5rem - 1px);
             left: calc(50%);
-            width: _size(border-width);
-            height: calc(3.5rem + 1px);
+            // width: _size(border-width);
+            height: calc(2.5rem + 1px);
             background: _palette(border);
         }
     }
@@ -36,8 +36,9 @@
         width: 5.5rem;
         height: 5.5rem;
         line-height: 5.5rem;
-        border: solid 1px _palette(border);
-        border-radius: 100%;
+        // border: solid 1px _palette(border);
+        // border-radius: 100%;
+        // background-image: url(../../images/rv.jpg);
         .icon {
             &:before {
                 font-size: 2rem;
