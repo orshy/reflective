@@ -2,9 +2,8 @@ import React from 'react'
 import rvLogo from '../images/rv.jpg'
 ;
 
-const Header = (props) => ( <
-    header id = "header"
-    style = { props.timeout ? { display: 'none' } : {} } >
+const Header = (props) => (
+  <header id = "header" style = { props.timeout ? { display: 'none' } : {} } >
     <div class="icon">
     <div>
       <img src={rvLogo} className="logo"/>

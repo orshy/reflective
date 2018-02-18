@@ -101,6 +101,7 @@ class Template extends React.Component {
               />
 
             </div>
+              <div id="bg"></div>
           </div>
         )
     }
