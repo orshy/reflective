@@ -35,7 +35,7 @@
         @include vendor('transition',
         ( 'transform #{_duration(article)} ease-in-out', 'filter #{_duration(article)} ease-in-out'));
         background-image: url('../../images/white.jpg');
-        background-color: #1b1f22;
+        opacity: .5;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
