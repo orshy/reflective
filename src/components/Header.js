@@ -13,10 +13,10 @@ const Header = (props) => ( <
     <div className="content" >
       <div className="inner" >
         <h1>REFLECTIVE VENTURE PARTNERS</h1>
-        <h2>A privately owned and managed cryptocurrency fund in partnership with <a href="https://www.rchain.coop/"> RChain Cooperative</a></h2>
+        <h2>A privately owned and managed cryptocurrency fund in partnership with <a href="https://www.rchain.coop/" target="_blank"> RChain Cooperative</a></h2>
       </div>
     </div>
-    <p>More information coming soon. Contact us at <a href = "mailto:info@reflectiveventures.io" target ="_top"> here</a></p>
+    <p>More information coming soon.<a href = "mailto:info@reflectiveventures.io" target ="_top"> Contact Us</a></p>
   </header>
 )
 
