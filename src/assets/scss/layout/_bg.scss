@@ -30,11 +30,11 @@
         z-index: 2;
     }
     &:after {
-        @include vendor('transform',
-        'scale(1.125)');
-        @include vendor('transition',
-        ( 'transform #{_duration(article)} ease-in-out', 'filter #{_duration(article)} ease-in-out'));
-        background-image: url('../../images/white.jpg');
+        // @include vendor('transform',
+        // 'scale(1.125)');
+        // @include vendor('transition',
+        // ( 'transform #{_duration(article)} ease-in-out', 'filter #{_duration(article)} ease-in-out'));
+        background-image: url('../../images/grey.jpg');
         opacity: .5;
         background-position: center;
         background-size: cover;
