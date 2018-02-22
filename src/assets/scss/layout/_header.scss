@@ -48,8 +48,8 @@
     .content {
         border-style: solid;
         border-color: _palette(border);
-        border-top-width: _size(border-width);
-        border-bottom-width: _size(border-width);
+        // border-top-width: _size(border-width);
+        // border-bottom-width: _size(border-width);
         max-width: 100%;
         .inner {
             @include vendor('transition', ( 'max-height #{_duration(intro)} ease', 'padding #{_duration(intro)} ease', 'opacity #{_duration(article)} ease-in-out'));
