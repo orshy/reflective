@@ -12,7 +12,7 @@
     max-width: 100%;
     text-align: center;
     >* {
-        @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
+        @include vendor('transition', 'opacity #{_duration(article)} ease-in');
         position: relative;
         // margin-top: 3.5rem;
         &:before {
@@ -36,7 +36,7 @@
         opacity: 0.8;
         border-radius: 2%;
         width: 20rem;
-        box-shadow: 2px 1px #ccc;
+        background-color: tomato;
         // height: 5.5rem;
         // line-height: 5.5rem;
         // border: solid 1px _palette(border);
