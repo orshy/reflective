@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Reflective Ventures",
     author: "Philip Orchard",
-    description: "info here"
+    description: "A PRIVATELY OWNED AND MANAGED CRYPTOCURRENCY FUND IN PARTNERSHIP WITH RCHAIN COOPERATIVE"
   },
   pathPrefix: '/reflective',
   plugins: [
