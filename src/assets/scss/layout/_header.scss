@@ -14,7 +14,7 @@
     >* {
         @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
         position: relative;
-        margin-top: 3.5rem;
+        // margin-top: 3.5rem;
         &:before {
             content: '';
             display: block;
