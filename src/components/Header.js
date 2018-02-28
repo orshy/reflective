@@ -1,5 +1,5 @@
 import React from 'react'
-import rvLogo from '../images/rv.jpg'
+import rvLogo from '../images/icon_small.svg'
 ;
 
 const Header = (props) => (
